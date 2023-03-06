@@ -1,3 +1,5 @@
+from helpers import *
+
 alunos = {
     'amons':
         {
@@ -36,3 +38,4 @@ alunos = {
             'lab_work': [70, 85.2]
         }
 }
+
