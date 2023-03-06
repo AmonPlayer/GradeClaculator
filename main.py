@@ -1,41 +1,8 @@
 from helpers import *
 
-alunos = {
-    'amons':
-        {
-            'name': 'amon Santos',
-            'classwork': [90, 95, 80, 10],
-            'tests': [90, 80],
-            'lab_work': [70, 85.2]
-        },
-    'pedros':
-        {
-            'name': 'pedro silva',
-            'classwork': [90, 75, 80, 10],
-            'tests': [70, 100],
-            'lab_work': [80, 90.2]
-
-        },
-    'marias':
-        {
-            'name': 'maria Santos',
-            'classwork': [90, 95, 80, 10],
-            'tests': [90, 80],
-            'lab_work': [70, 85.2]
-        },
-    'joaos':
-        {
-            'name': 'joao Santos',
-            'classwork': [90, 95, 80, 10],
-            'tests': [90, 80],
-            'lab_work': [70, 85.2]
-        },
-    'tiagos':
-        {
-            'name': 'tiago Santos',
-            'classwork': [90, 95, 80, 10],
-            'tests': [90, 80],
-            'lab_work': [70, 85.2]
-        }
-}
-
+if __name__ == "__main__":
+    for aluno, detalhes in alunos.items():
+        print(f"\n {alunos[aluno]['name']}")
+        print("-------------------------")
+        print(f"Media de notas de {alunos[aluno]['name']}: {round(calcular_media_total(alunos[aluno]), 1)}")
+        print(f"Nota final de {alunos[aluno]['name']}: {atribuir_letra_nota(round(calcular_media_total(alunos[aluno]), 1))}")

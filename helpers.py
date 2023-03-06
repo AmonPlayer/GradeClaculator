@@ -1,3 +1,43 @@
+alunos = {
+    'amons':
+        {
+            'name': 'Amon Santos',
+            'classwork': [90, 95, 80, 10],
+            'tests': [90, 80],
+            'lab_work': [80, 95.2]
+        },
+    'pedros':
+        {
+            'name': 'Pedro Silva',
+            'classwork': [90, 75, 80, 10],
+            'tests': [70, 100],
+            'lab_work': [80, 100]
+
+        },
+    'marias':
+        {
+            'name': 'Maria Santos',
+            'classwork': [90, 95, 80, 10],
+            'tests': [90, 80],
+            'lab_work': [70, 85.2]
+        },
+    'joaos':
+        {
+            'name': 'Joao Santos',
+            'classwork': [90, 95, 80, 10],
+            'tests': [90, 80],
+            'lab_work': [50, 55.2]
+        },
+    'tiagos':
+        {
+            'name': 'Tiago Santos',
+            'classwork': [90, 95, 80, 10],
+            'tests': [90, 80],
+            'lab_work': [80, 85.2]
+        }
+}
+
+
 def obter_media(grade):
     total_sum = sum(grade)
     total_sum = float(total_sum)
